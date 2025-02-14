@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'Nunito',Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    /* font-family: "Trade Gothic LT Bold",Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; */
+    font-weight: 900;
+    width: 98.9vw; /* 2862px */
+    height: auto; /* 1452px */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #451400;
+}
+
+.accessibility {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 36px;
+    margin: 0 0;
+    padding: 4px 2rem;
+    font-size: 0.75rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    height: 100px;
+    padding: 4px 2rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+    box-shadow: 0 3px 5px #d7d7d7;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.links img {
+    width: 71px;
+    height: 71px;
+}
+
+.navbar .ecommerce-ui {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 0.9rem;
+    margin: 0 -15px 0 0;
+}
+
+.ecommerce-ui div {
+    display: flex;
+    gap: 10px;
+}
+
+#container {
+    display: grid;
+    justify-items: center;
+}
+
+#container .hero {
+    width: 98.9vw;
+    height: auto;
+}
+
+#container .mini-ad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 75px;
+    border-bottom: 1px solid #451400;
+    font-size: 1.3rem;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.mini-ad img {
+    width: 70px;
+    height: auto;
+}
+
+.mini-ad a {
+    color: #b68207;
+}
+
+.mini-ad button {
+    width: 280px;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: #451400;
+    color:#fff;
+}
+
+.food-types {
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    font-size: 2rem;
+    /* justify-items: center;
+    align-content: center; */
+    grid: 1fr / 1fr 1fr 1fr;
+    margin: 20px 0;
+}
+
+.food-types img {
+    width: 400px;
+    height: auto;
+}
+
+.food-types p {
+    margin: 0;
+}
+
+
+
+
