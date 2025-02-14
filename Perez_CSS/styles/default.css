@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 button {
     margin: 0;
     padding: 0;
@@ -11,8 +14,8 @@ a {
 }
 
 body {
-    font-family: Arial,Helvetica,sans-serif;
-    font-weight: 900;
+    font-family: "Roboto Condensed", "Nunito", Arial,Helvetica,sans-serif;
+    font-weight: 550;
     width: 98.9vw; 
     height: auto; 
     margin: 0;
@@ -32,6 +35,8 @@ body {
     margin: 0 0;
     padding: 4px 2rem;
     font-size: 0.75rem;
+    font-weight: 550;
+    font-family: "Nunito";
 }
 
 .navbar {
@@ -47,7 +52,7 @@ body {
     font-size: 1.5rem;
     background-color: #fff;
     border-bottom: 1px solid #d7d7d7;
-    box-shadow: 0 3px 5px #d7d7d7;
+    box-shadow: 0 1px 5px #d7d7d7;
 }
 
 .navbar .links {
@@ -55,13 +60,12 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-family: Arial, sans-serif;
     cursor: pointer;
 }
 
 .links img {
-    width: 71px;
-    height: 71px;
+    width: 64px;
+    height: 64px;
 }
 
 .links p {
@@ -95,6 +99,8 @@ body {
     font-size: 0.9rem;
     margin: 0 -15px 0 0;
     cursor: pointer;
+    font-family: "Nunito";
+    font-weight: 700;
 }
 
 .ecommerce-ui div {
@@ -125,27 +131,34 @@ body {
     gap: 20px;
     height: 75px;
     border-bottom: 1px solid #451400;
-    font-size: 1.3rem;
-    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .mini-ad img {
-    width: 70px;
+    width: 62px;
     height: auto;
 }
 
 .mini-ad a {
+    font-size: 1.2rem;
     color: #b68207;
     text-decoration: underline;
 }
 
+.mini-ad p:nth-child(4) {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
 .mini-ad button {
-    width: 280px;
-    height: 40px;
-    font-size: 1.3rem;
+    width: 210px;
+    height: 34px;
+    font-size: 1.2rem;
     background-color: #451400;
     color:#fff;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
 }
 
 .mini-ad button:hover {
@@ -154,14 +167,14 @@ body {
 }
 
 .food-types {
-    width: 50%;
     display: grid;
     justify-items: center;
     text-align: center;
     font-size: 2rem;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    margin: 20px 0;
+    row-gap: 40px;
+    column-gap: 80px;
+    margin: 40px 0;
     cursor: pointer;
     position: relative;
 }
@@ -171,7 +184,7 @@ body {
 }
 
 .food-types img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
